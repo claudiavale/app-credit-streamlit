@@ -29,9 +29,9 @@ scaler = StandardScaler().fit(x)
 
 
 
-# image_credito = Image.open('Imagenes/creditcardjpg')
+# image_credito = Image.open('Imagenes/creditcard.jpg')
 # st.image(image_credito)
-st.image('Imagenes/creditcardjpg')
+st.image('Imagenes/creditcard.jpg')
 
 
 
