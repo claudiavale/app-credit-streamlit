@@ -62,8 +62,8 @@ with col3:
     if y_pred == 0:
         # im = Image.open("imagenes/denegado.jpg")
         # st.image(im)
-        st.image("imagenes/denegado.jpg")
+        st.image("Imagenes/denegado.jpg")
     if y_pred == 1:
         # im = Image.open("imagenes/aprobado.jpg")
         # st.image(im)
-        st.image("imagenes/aprobado.jpg")
+        st.image("Imagenes/aprobado.jpg")
