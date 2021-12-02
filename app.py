@@ -29,8 +29,9 @@ scaler = StandardScaler().fit(x)
 
 
 
-image_credito = Image.open('Imagenes/creditcard.jpg')
-st.image(image_credito)
+# image_credito = Image.open('Imagenes/creditcardjpg')
+# st.image(image_credito)
+st.image('Imagenes/creditcardjpg')
 
 
 
@@ -59,8 +60,10 @@ with col3:
 
     
     if y_pred == 0:
-        im = Image.open("imagenes/denegado.jpg")
-        st.image(im)
+        # im = Image.open("imagenes/denegado.jpg")
+        # st.image(im)
+        st.image("imagenes/denegado.jpg")
     if y_pred == 1:
-        im = Image.open("imagenes/aprobado.jpg")
-        st.image(im)
+        # im = Image.open("imagenes/aprobado.jpg")
+        # st.image(im)
+        st.image("imagenes/aprobado.jpg")
